@@ -1,0 +1,36 @@
+body {
+  text-align: center;
+  background-color: rgb(14, 165, 170);
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  text-shadow: 0 0 2px black;
+}
+
+.color {
+  display: inline-block;
+  border: 1px solid black;
+  width: 40px;
+  height: 40px;
+}
+
+.pixel {
+  display: inline-block;
+  background-color: white;
+  width: 40px;
+  height: 40px;
+  border: 1px solid black;
+  margin: -3px;
+}
+
+#pixel-board {
+  display: inline-block;
+  justify-items: center;
+  text-align: center;
+  width: auto;
+  height: auto;
+  box-shadow: 0 0 1em black;
+}
+
+#botoes {
+  padding: 10px;
+}
